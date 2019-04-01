@@ -18,6 +18,7 @@ disqus_id:
 include: [_pages]
 markdown: kramdown
 permalink: /:year/:month/:title.html
+remote_theme: mkchoi212/paper-jekyll-theme
 
 sass:
     style: compressed
