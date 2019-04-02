@@ -53,6 +53,10 @@ h6 {
     font-weight: 400;
     color: $c-base__02;
 }
+h7 {
+    font-weight: 400;
+    color: $c-base__03;
+}
 
 
 /* Media */
@@ -85,7 +89,7 @@ svg {
 }
 
 .center {
-  text-align: center; 
+  text-align: center;
 }
 
 /* Links */
@@ -99,7 +103,7 @@ a {
     display: inline-block;
     padding: 0px 1px;
     transition: color ease 0.3s;
-    
+
     /* Hover animation effect for all buttons */
     &::after {
       content: '';
@@ -127,14 +131,14 @@ a.no-hov {
 	&:after {
 		content: none
 	}
-	
+
 	&:hover {
 		color: $c-accent__darkblue
 	}
 }
 
 a.nav {
-  padding: 10px 35px;  
+  padding: 10px 35px;
   overflow:hidden;
 }
 a.nav:before {
