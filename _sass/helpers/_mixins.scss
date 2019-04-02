@@ -18,7 +18,7 @@
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-    font-family: 'LatoWebBlack', 'LatoWebHeavy', Helvetica, sans-serif;
+    font-family: 'LatoWebBold', 'LatoWebHeavy', Helvetica, sans-serif;
     font-weight: $font-weight;
 }
 
