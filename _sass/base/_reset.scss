@@ -21,10 +21,8 @@ html {
     font-size: 62.5%; // Make it easy to calculate rems to px
 }
 
-    @include "../helpers/Lato/latofonts.css";
 body {
-    /*@include ff--sans-serif(400);*/
-    font-family: LatoWebBlack;
+    @include ff--sans-serif(400);
     -webkit-font-smoothing: antialiased;
 }
 
