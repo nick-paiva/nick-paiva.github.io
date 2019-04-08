@@ -8,7 +8,7 @@ email: johnny@appleseed.com\
 github_username: nick-paiva
 
 #baseurl: "/paper-jekyll-theme" # the subpath of your site, e.g. /blog
-#url: "https://deadbeef.me" # the base hostname & protocol for your site
+url: "https://nick-paiva.github.io" # the base hostname & protocol for your site
 
 google_analytics_id: UA-1111111111-1
 disqus_id:
