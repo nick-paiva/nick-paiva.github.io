@@ -18,11 +18,19 @@ title: Home
         <small>{{post.description}}</small>
       </h3>
       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      {% if post.photo_layout == layout_3_pic_1 %}
       <div style="width:700px; height:400px;">
         <a href="{{ post.url | prepend: site.baseurl }}" style="width:480px; height:380px; margin:10px; position:relative; float:left; background-image:url('{{site.url}}/{{post.photo1}}'); background-size:cover; background-position:center"></a>
         <a href="{{ post.url | prepend: site.baseurl }}" style="width:180px; height:180px; margin:10px; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo2}}'); background-size:cover; background-position:center"></a>
         <a href="{{ post.url | prepend: site.baseurl }}" style="width:180px; height:180px; margin:10px; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo3}}'); background-size:cover; background-position:center"></a>
       </div>
+      {% endif %}
+      {% if post.photo_layout == layout_2_pic_1 %}
+        <div style="width:700px; height:400px;">
+          <a href="{{ post.url | prepend: site.baseurl }}" style="width:330px; height:380px; margin:10px; position:relative; float:left; background-image:url('{{site.url}}/{{post.photo1}}'); background-size:cover; background-position:center"></a>
+          <a href="{{ post.url | prepend: site.baseurl }}" style="width:330px; height:380px; margin:10px; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo2}}'); background-size:cover; background-position:center"></a>
+        </div>
+      {% endif %}
     </li>
     {% if forloop.last %}
   </ul>
