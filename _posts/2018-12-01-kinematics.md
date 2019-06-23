@@ -6,8 +6,8 @@ date: 2018-12-01
 tags: HEBI Robot Controls
 comments: false
 photo_layout: "layout_2_pic_1"
-photo1: "assets/RHM/RHM_W_small.jpg"
-photo2: "assets/RHM/RHM_on_small.jpg"
+photo1: "assets/Kinematics/frame_1.png"
+photo2: "assets/Kinematics/robot_cropped.png"
 ---
 Stuff
 
