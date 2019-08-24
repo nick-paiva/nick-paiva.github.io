@@ -12,7 +12,7 @@ photo2: "assets/Kinematics/robot_cropped.png"
 
 This is my submission for the capstone project of the Robot Kinematics and Dynamics course at CMU. The goal of this project was to trace the end effector of a HEBI Robotics robot arm through an arbitrary track without tapping the edges.
 
-All of the code for this project was written in MATLAB. In the spirit of the course, no external kinematics libraries were used. Gravity compensation, trajectory planning, and numerical IK were all implemented from scratch using first principles. To aid the development and testing of my solution, I also wrote some custom visualizations in MATLAB. I ended up having a competition-winning time of 7 seconds, adjusted to 9 seconds after edge-tapping penalties. 
+All of the code for this project was written in MATLAB. In the spirit of the course, no external kinematics libraries were used. Gravity compensation, trajectory planning, and numerical IK were all implemented from scratch using first principles. To aid the development and testing of my solution, I also wrote some custom visualizations in MATLAB. I ended up having a competition-winning time of 7 seconds, adjusted to 9 seconds after edge-tapping penalties.
 
 A video of my submission may be viewed below:
-<iframe width="780" height="440" src="https://www.youtube.com/embed/BQ4f6Sq-F4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="680" height="385" src="https://www.youtube.com/embed/BQ4f6Sq-F4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
