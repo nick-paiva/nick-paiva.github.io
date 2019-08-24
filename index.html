@@ -31,6 +31,11 @@ title: Home
           <a href="{{ post.url | prepend: site.baseurl }}" style="width:330px; height:380px; margin:10px; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo2}}'); background-size:cover; background-position:center"></a>
         </div>
       {% endif %}
+      {% if post.photo_layout == "layout_1_pic_1" %}
+        <div style="width:700px; height:400px;">
+          <a href="{{ post.url | prepend: site.baseurl }}" style="width:680px; height:380px; margin:10px; position:relative; float:left; background-image:url('{{site.url}}/{{post.photo1}}'); background-size:cover; background-position:center"></a>
+        </div>
+      {% endif %}
     </li>
     {% if forloop.last %}
   </ul>
