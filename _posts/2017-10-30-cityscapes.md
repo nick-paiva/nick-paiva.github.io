@@ -6,7 +6,7 @@ date: 2017-10-30
 tags: Python multithreading OpenGL
 comments: false
 photo_layout: "layout_1_pic_1"
-photo1: "assets/cityscapes/cityscapes_cap.jpg"
+photo1: "assets/cityscapes/cityscapes_cap.PNG"
 ---
 
 This is a term project I wrote in Python for my intro to CS class. It utilizes mulithreading, OpenGL, and object oriented programming.
