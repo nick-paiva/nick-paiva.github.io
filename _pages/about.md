@@ -3,9 +3,11 @@ layout: content
 title: About
 permalink: /about/
 ---
-Hi, I'm Nick. Thanks for visiting my site.
+Hi! I'm Nick Paiva. Thanks for visiting my site.
 
-I engineer shite. More information can be found through <a href="https://www.linkedin.com/in/nicholas-paiva/" data-network="LinkedIn" data-proofer-ignore>LinkedIn.</a>
+I'm an Electrical Engineer studying at Carnegie Mellon University.
+
+To contact me, or to find more information, go to my <a href="https://www.linkedin.com/in/nicholas-paiva/" data-network="LinkedIn" data-proofer-ignore>LinkedIn.</a>
 
 
 
@@ -13,8 +15,7 @@ I engineer shite. More information can be found through <a href="https://www.lin
 
 ## The Website
 This site is powered by [Jekyll](https://jekyllrb.com) on [Github Pages](https://pages.github.com).
-I'd love to hear your feedback on this site and my work.
+
+Based on [this](https://github.com/mkchoi212/paper-jekyll-theme.git) template.
 
 ----
-
-

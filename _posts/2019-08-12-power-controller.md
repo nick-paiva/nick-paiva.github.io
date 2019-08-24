@@ -34,6 +34,7 @@ Test setup:
 <img src="https://nick-paiva.github.io/assets/power-controller/test-setup.jpg">
 
 Gallery:
+<img src="https://nick-paiva.github.io/assets/power-controller/controller-gif.gif">
 <img src="https://nick-paiva.github.io/assets/power-controller/controller-assembly.jpg">
 <img src="https://nick-paiva.github.io/assets/power-controller/controller-unassembled.jpg">
 <img src="https://nick-paiva.github.io/assets/power-controller/controller-LCD.jpg">
