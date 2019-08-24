@@ -26,8 +26,10 @@ It is intended to handle a 48V supply, but can charge the batteries at a lower v
 
 Voltage from back-EMF without regulation:
 <img src="https://nick-paiva.github.io/assets/power-controller/wo-chopper.PNG">
+
 Voltage with the shunt regulator engaged:
 <img src="https://nick-paiva.github.io/assets/power-controller/chopper.PNG">
+
 Test setup:
 <img src="https://nick-paiva.github.io/assets/power-controller/test-setup.jpg">
 
