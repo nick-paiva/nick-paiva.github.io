@@ -12,9 +12,9 @@ photo3: "assets/power-controller/controller-LCD_small.jpg"
 ---
 
 
-<img src="https://nick-paiva.github.io/power-controller/wo-chopper.PNG">
-<img src="https://nick-paiva.github.io/power-controller/chopper.PNG">
-<img src="https://nick-paiva.github.io/power-controller/controller-unassembled.jpg">
-<img src="https://nick-paiva.github.io/power-controller/controller-assembly.jpg">
-<img src="https://nick-paiva.github.io/power-controller/controller-LCD.jpg">
-<img src="https://nick-paiva.github.io/power-controller/controller-unassembled.jpg">
+<img src="https://nick-paiva.github.io/assets/power-controller/wo-chopper.PNG">
+<img src="https://nick-paiva.github.io/assets/power-controller/chopper.PNG">
+<img src="https://nick-paiva.github.io/assets/power-controller/controller-unassembled.jpg">
+<img src="https://nick-paiva.github.io/assets/power-controller/controller-assembly.jpg">
+<img src="https://nick-paiva.github.io/assets/power-controller/controller-LCD.jpg">
+<img src="https://nick-paiva.github.io/assets/power-controller/controller-unassembled.jpg">
