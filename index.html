@@ -54,7 +54,9 @@ title: Home
           </div>
         </div>
       {% endif %}
+      <div style="width:100%; text-align:right;">
       <h3><a href="{{ post.url | prepend: site.baseurl }}" style="text-align:right;">Read More >></a></h3>
+      </div>
     </li>
     {% if forloop.last %}
   </ul>
