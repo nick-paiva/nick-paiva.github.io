@@ -20,9 +20,11 @@ title: Home
       <p>{{ post.date | date: "%b %-d, %Y" }}</p>
       {% if post.photo_layout == "layout_3_pic_1" %}
       <div class="post-thumb">
-        <a href="{{ post.url | prepend: site.baseurl }}" style="width:70%; padding-bottom:70%; height:0px; margin:1%; position:relative; float:left; background-image:url('{{site.url}}/{{post.photo1}}'); background-size:cover; background-position:center"></a>
-        <a href="{{ post.url | prepend: site.baseurl }}" style="width:28%; padding-bottom:28%; height:0px; margin:1%; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo2}}'); background-size:cover; background-position:center"></a>
-        <a href="{{ post.url | prepend: site.baseurl }}" style="width:28%; padding-bottom:28%; height:0px; margin:1%; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo3}}'); background-size:cover; background-position:center"></a>
+        <div style="position:absolute">
+        <a href="{{ post.url | prepend: site.baseurl }}" style="width:70%; height:0px; margin:1%; position:relative; float:left; background-image:url('{{site.url}}/{{post.photo1}}'); background-size:cover; background-position:center"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" style="width:28%; height:0px; margin:1%; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo2}}'); background-size:cover; background-position:center"></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" style="width:28%; height:0px; margin:1%; position:relative; float:right; background-image:url('{{site.url}}/{{post.photo3}}'); background-size:cover; background-position:center"></a>
+        </div>
       </div>
       {% endif %}
       {% if post.photo_layout == "layout_2_pic_1" %}
