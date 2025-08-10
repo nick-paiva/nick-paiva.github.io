@@ -2,7 +2,7 @@
 layout: post
 title: "3 Phase BLDC Motor Driver"
 description: "A modular, high power density motor controller"
-date: 2023-01-01
+date: 2022-09-01
 tags: BLDC Motor Controller
 comments: false
 photo_layout: "layout_1_pic_1"
